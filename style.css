@@ -2,15 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-;
 }
 body{
-  background-color: snow;
+  background-color: rgb(226, 224, 224);
 }
+
 header{
   padding-left: 25px;
   padding-top: 10px;
   background-color: white;
-  
+
  }
 
 .title{
@@ -21,11 +23,13 @@ header{
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 3%;
+  padding-bottom: 20px;
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
   border-radius: 15px;
   padding-left: 5%;
   padding-right: 5%;
+  background-color: white;
 }
 .top{
   padding-top: 40px;
@@ -78,7 +82,7 @@ hr{
   border-width: 1px;
   border-style: solid;
   border-color: 0;
-  margin-left: 5%;
+  margin-left: 1%;
   padding: 2px;
   border-radius: 20px;
   color: white;
@@ -94,7 +98,7 @@ hr{
   border-width: 1px;
   border-style: solid;
   border-color: 0;
-  margin-left: 5%;
+  margin-left: 1%;
   padding: 2px;
   border-radius: 20px;
   background-color:rgb(132, 0, 255);
@@ -105,7 +109,7 @@ hr{
   border-width: 1px;
   border-style: solid;
   border-color: 0;
-  margin-left: 5%;
+  margin-left: 1%;
   padding: 2px;
   border-radius: 20px;
   background-color: orange;
@@ -115,4 +119,26 @@ hr{
   content: "\24E7";
   color: red;
   margin-right: 10px;
+}
+.textbox-website{
+  font-size: small;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: 0;
+  margin-left:1%;
+  padding: 2px;
+  border-radius: 20px;
+  background-color: rgb(170, 5, 96);
+}
+.textbox-sales{
+  font-size: small;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: 0;
+  margin-left: 1%;
+  padding: 2px;
+  border-radius: 20px;
+  background-color: rgb(32, 107, 32);
 }
