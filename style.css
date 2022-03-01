@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: snow;
+}
+header{
+  padding-left: 25px;
+  padding-top: 10px;
+  background-color: white;
+  
+ }
+
+.title{
+  font-size: 40px;
+  
+}
+.container{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.top{
+  padding-top: 40px;
+}
+
+.textbox{
+  border-width: 0;
+  border-style: solid;
+  padding: 5px;
+  border-radius: 15px;
+  
+}
+.textbox.blue{
+  color: white;
+  background-color: cornflowerblue;
+}
+.textbox.white{
+  color: lightgrey;
+  background-color: white;
+  border-width: 1px;
+}
+
+hr{
+  margin-top:15px;
+}
+.paragraph{
+  margin-top: 30px;
+  margin-bottom: 10px;
+ 
+}
+.body-title{
+  font-size: 22px;
+  
+}
+.paragraph::before{
+  content:"\25BC";
+}
+
+.correctrow::before{
+  content:"\2713";
+  color: green;
+  margin-right: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 100%;
+  
+}
